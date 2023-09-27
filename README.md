@@ -1,4 +1,4 @@
-# animal_project
+# BiometricAut with Flutter
 
 A new Flutter project.
 
