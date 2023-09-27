@@ -36,16 +36,15 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        systemOverlayStyle: const SystemUiOverlayStyle(
-        statusBarColor: Colors.black,
-        statusBarIconBrightness: Brightness.light,
-        statusBarBrightness: Brightness.light,
-        ),
-        backgroundColor: Colors.transparent,
-        title: Text(widget.title),
-      ),
-      body: LoginScreen()
+      // appBar: AppBar(
+      //   systemOverlayStyle: const SystemUiOverlayStyle(
+      //   statusBarColor: Colors.white,
+      //   statusBarIconBrightness: Brightness.dark,
+      //   statusBarBrightness: Brightness.dark,
+      //   ),
+      //   backgroundColor: Colors.white,
+      // ),
+      body: const LoginScreen()
     );
   }
 }
